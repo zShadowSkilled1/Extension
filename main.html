@@ -1,1 +1,16 @@
-
+<html>
+<body>
+   <div id="dip"> Click the below buttons to hide or show this text. 
+   </div><br>
+   <button onclick="hide()"> Hide Element </button>
+   <button onclick="show()"> Show Element </button>
+   <script>
+      function hide() {
+         document.getElementById('dip').hidden = true
+      }
+      function show() {
+         document.getElementById('dip').hidden = false
+      }
+   </script>
+</body>
+</html>
