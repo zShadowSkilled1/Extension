@@ -1,15 +1,22 @@
 <html>
+<style> 
+   #dip {
+      width: 630px;
+      height: 300px;
+      background-color: #F3F3F3;
+   }
+</style>
 <body>
-   <div id="toggle1">RSM
-   </div><br>
+   <p> Click the "Hide Element" button to hide the div element. </p>
    <button onclick="hide()"> Hide Element </button>
    <button onclick="show()"> Show Element </button>
+   <div id="toggle1"> Hello World! This is DIV element </div>
    <script>
       function hide() {
-         document.getElementById('leftSpacer').hidden = true
+         document.getElementById('leftSpacer').style.visibility = 'hidden';
       }
       function show() {
-         document.getElementById('leftSpacer').hidden = false
+         document.getElementById('leftSpacer').style.visibility = 'visible';
       }
    </script>
 </body>
