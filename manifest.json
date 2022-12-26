@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Roblox StreamerMode",
+  "description": "",
+  "version": "1.0",
+  "action": {
+    "default_popup": "",
+    "default_icon": "hello_extensions.png"
+  }
+}
