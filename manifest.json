@@ -4,7 +4,7 @@
   "description": "",
   "version": "1.0",
   "action": {
-    "default_popup": "",
+    "default_popup": "main.html",
     "default_icon": "hello_extensions.png"
   }
 }
