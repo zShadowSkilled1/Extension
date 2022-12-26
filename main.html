@@ -1,16 +1,29 @@
 <html>
+<head>
+<title>How show and hide html element</title>
+<style>
+#showHide{
+    width:500px;
+    height:300px;
+    background:#F00;
+    display:none;
+}
+</style>
+</head>
 <body>
-      <script>
-      function hide() {
-         document.getElementById('navbar-robux').hidden = true
-      }
-      function show() {
-         document.getElementById('navbar-robux').hidden = false
-      }
-   </script>
-   <div id="toggle"> Click the below buttons to hide or show this text. 
-   </div><br>
-   <button onclick="hide()"> Hide Element </button>
-   <button onclick="show()"> Show Element </button>
+
+<button onclick="ShowHide()">Show/Hide</button>
+<div id="showHide">
+</div>
+<script>
+function ShowHide(){
+    let el = document.getElementById('showHide')
+    if(el.style.display =='block'){
+        el.style.display = 'none'
+    }else{
+        el.style.display = 'block'
+    }
+}
+</script>
 </body>
 </html>
