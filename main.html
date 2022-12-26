@@ -1,29 +1,10 @@
-<html>
-<head>
-<title>How show and hide html element</title>
-<style>
-#showHide{
-    width:500px;
-    height:300px;
-    background:#F00;
-    display:none;
+function reddenPage() {
+  document.body.style.backgroundColor = 'red';
 }
-</style>
-</head>
-<body>
 
-<button onclick="ShowHide()">Show/Hide</button>
-<div id="showHide">
-</div>
-<script>
-function ShowHide(){
-    let el = document.getElementById('showHide')
-    if(el.style.display =='block'){
-        el.style.display = 'none'
-    }else{
-        el.style.display = 'block'
-    }
-}
-</script>
-</body>
-</html>
+chrome.action.onClicked.addListener((tab) => {
+  if(!tab.url.includes("roblox.com")) {
+    chrome.scripting.executeScript({
+      target: { tabId: tab.id },
+      function: reddenPage
+    });
