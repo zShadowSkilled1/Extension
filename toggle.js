@@ -1,6 +1,10 @@
-const toggle = document.querySelector('.toggle input')
+function reddenPage() {
+  document.body.style.backgroundColor = 'red';
+}
 
-toggle.addEventListener('click', () => {
-    const onOff = toggle.parentNode.querySelector('.onoff')
-    onOff.textContent = toggle.checked ? 'ON' alert("ENABLED") : 'OFF'
-})
+chrome.action.onClicked.addListener((tab) => {
+  if(!tab.url.includes("roblox.com")) {
+    chrome.scripting.executeScript({
+      target: { tabId: tab.id },
+      function: reddenPage
+    });
