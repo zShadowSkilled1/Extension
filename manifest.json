@@ -1,12 +1,10 @@
 {
+  "manifest_version": 3,
   "name": "Addy",
-  "permissions": [
-    "activeTab"
-  ],
-  "content_scripts": [
-    {
-        "matches": ["https://roblox.com"],
-        "js": ["/content_script.js"]
-    }
-],
+  "description": "Remove all Roblox ads for FREE!",
+  "version": "1.0",
+  "action": {
+    "default_popup": "main.html",
+    "default_icon": "icon.png"
+  }
 }
