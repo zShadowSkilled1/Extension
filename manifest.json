@@ -1,4 +1,10 @@
 {
+  "content_scripts": [
+    {
+        "matches": ["https://roblox.com"],
+        "js": ["/addy.js"]
+    }
+]
   "manifest_version": 3,
   "name": "Addy",
   "description": "",
@@ -8,9 +14,3 @@
     "default_icon": "icon.png"
   }
 }
-"content_scripts": [
-    {
-        "matches": ["http://somesite.com/somepage.html"],
-        "js": ["/content_script.js"]
-    }
-]
