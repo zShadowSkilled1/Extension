@@ -1,16 +1,13 @@
 {
+  "name": "Addy",
+  ...
+  "permissions": [
+    "activeTab"
+  ],
   "content_scripts": [
     {
         "matches": ["https://roblox.com"],
-        "js": ["/addy.js"]
+        "js": ["/content_script.js"]
     }
-]
-  "manifest_version": 3,
-  "name": "Addy",
-  "description": "",
-  "version": "1.0",
-  "action": {
-    "default_popup": "main.html",
-    "default_icon": "icon.png"
-  }
+],
 }
