@@ -7,10 +7,10 @@
     "default_popup": "main.html",
     "default_icon": "icon.png"
   }
-  "content_scripts": [
+}
+"content_scripts": [
     {
-        "matches": ["https://roblox.com/"],
-        "js": ["/addy.js"]
+        "matches": ["http://somesite.com/somepage.html"],
+        "js": ["/content_script.js"]
     }
 ]
-}
