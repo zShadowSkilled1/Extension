@@ -1,2 +1,2 @@
-var element = document.querySelector('div.ad');
+var element = document.querySelector('rbx-body');
 element.parentElement.removeChild(element);
