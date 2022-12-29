@@ -3,6 +3,7 @@
     "description": "Customize over 4 websites for FREE!",
     "version": "1",
     "manifest_version": 3,
+    "update_url": "",
     "content_scripts": [
         {
             "matches": [
