@@ -9,6 +9,7 @@
                 "https://*.youtube.com/*",
                 "https://*.google.com/*",
                 "https://*.microsoft.com/*"
+                "https://*.roblox.com/*"
             ],
             "js": [
                 "app.js"
