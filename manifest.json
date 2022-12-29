@@ -3,7 +3,6 @@
     "description": "Customize over 3 websites for FREE!",
     "version": "1",
     "manifest_version": 3,
-        "default_popup": "Customize.html",
     "content_scripts": [
         {
             "matches": [
