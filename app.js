@@ -1,7 +1,7 @@
 // Get The URL
 const site = window.location.hostname
 
-// alert("Injector - The JavaScript has been injected to: " + site + " 🤖")
+// alert("Customize : Successfully Customized " + site + " !")
 
 // Add Custom CSS - Function
 const Add_Custom_Style = css => document.head.appendChild(document.createElement("style")).innerHTML = css
