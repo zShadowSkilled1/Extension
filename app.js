@@ -24,7 +24,7 @@ if (site.includes("youtube.com")) {
 
         * {
             font-family: "Raleway" !important;
-            color: #00ff40 !important;
+            //color: #6830C9 !important;
         }
 
         ytd-channel-about-metadata-renderer {
@@ -54,7 +54,43 @@ if (site.includes("youtube.com")) {
 }
 
 // JS Codes For google.com
-if (site.includes("google.com")) { }
+if (site.includes("google.com")) {
+    /* -------------- */
+    /* Add Custom CSS */
+    /* -------------- */
+    Add_Custom_Style(`
+        @import url("https://fonts.googleapis.com/css?family=Raleway");
+
+        * {
+            font-family: "Raleway" !important;
+            //color: #6830C9 !important;
+        }
+
+        ytd-channel-about-metadata-renderer {
+            zoom: 1.6;
+        }
+
+        #meta.ytd-c4-tabbed-header-renderer {
+            zoom: 1.3;
+        }
+    `)
+
+    /* ---------------------- */
+    /* Create Custom Elements */
+    /* ---------------------- */
+    // Create_Custom_Element(
+    //     "div",
+    //     "id",
+    //     "js-custom-element",
+    //     "My Custom JS Element 1"
+    // )
+    // Create_Custom_Element(
+    //     "div",
+    //     "class",
+    //     "js-custom-element",
+    //     "My Custom JS Element 2"
+    // )
+}
 
 // JS Codes For microsoft.com
 if (site.includes("microsoft.com")) { }
