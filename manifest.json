@@ -1,7 +1,7 @@
 {
     "name": "Customize",
-    "description": "Customize over 3 websites fro FREE!",
-    "version": "0.0.0.1",
+    "description": "Customize over 3 websites for FREE!",
+    "version": "1",
     "manifest_version": 3,
     "content_scripts": [
         {
