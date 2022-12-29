@@ -139,7 +139,7 @@ if (site.includes("roblox.com")) {
         @import url("https://fonts.googleapis.com/css?family=Nokora");
 
         * {
-            font-family: "Tauri" !important;
+            font-family: "Nokora" !important;
             //color: #363636 !important;
         }
 
