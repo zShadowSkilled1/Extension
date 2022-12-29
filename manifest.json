@@ -1,6 +1,6 @@
 {
-    "name": "Injector",
-    "description": "Inject Your Custom JavaScript And CSS To Any Website.",
+    "name": "Customize",
+    "description": "Customize over 3 websites fro FREE!",
     "version": "0.0.0.1",
     "manifest_version": 3,
     "content_scripts": [
