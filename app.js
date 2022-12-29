@@ -130,3 +130,41 @@ if (site.includes("microsoft.com")) {
     //     "My Custom JS Element 2"
     // )
 }
+//Javascript for Roblox
+if (site.includes("roblox.com")) {
+    /* -------------- */
+    /* Add Custom CSS */
+    /* -------------- */
+    Add_Custom_Style(`
+        @import url("https://fonts.googleapis.com/css?family=Nova+Round");
+
+        * {
+            font-family: "Tauri" !important;
+            //color: #363636 !important;
+        }
+
+        ytd-channel-about-metadata-renderer {
+            zoom: 1.6;
+        }
+
+        #meta.ytd-c4-tabbed-header-renderer {
+            zoom: 1.3;
+        }
+    `)
+
+    /* ---------------------- */
+    /* Create Custom Elements */
+    /* ---------------------- */
+    // Create_Custom_Element(
+    //     "div",
+    //     "id",
+    //     "js-custom-element",
+    //     "My Custom JS Element 1"
+    // )
+    // Create_Custom_Element(
+    //     "div",
+    //     "class",
+    //     "js-custom-element",
+    //     "My Custom JS Element 2"
+    // )
+}
