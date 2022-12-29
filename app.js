@@ -136,7 +136,7 @@ if (site.includes("roblox.com")) {
     /* Add Custom CSS */
     /* -------------- */
     Add_Custom_Style(`
-        @import url("https://fonts.googleapis.com/css?family=Nova+Round");
+        @import url("https://fonts.googleapis.com/css?family=Nokora");
 
         * {
             font-family: "Tauri" !important;
