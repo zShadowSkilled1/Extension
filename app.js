@@ -93,4 +93,40 @@ if (site.includes("google.com")) {
 }
 
 // JS Codes For microsoft.com
-if (site.includes("microsoft.com")) { }
+if (site.includes("microsoft.com")) {
+    /* -------------- */
+    /* Add Custom CSS */
+    /* -------------- */
+    Add_Custom_Style(`
+        @import url("https://fonts.googleapis.com/css?family=Tauri");
+
+        * {
+            font-family: "Tauri" !important;
+            color: #363636 !important;
+        }
+
+        ytd-channel-about-metadata-renderer {
+            zoom: 1.6;
+        }
+
+        #meta.ytd-c4-tabbed-header-renderer {
+            zoom: 1.3;
+        }
+    `)
+
+    /* ---------------------- */
+    /* Create Custom Elements */
+    /* ---------------------- */
+    // Create_Custom_Element(
+    //     "div",
+    //     "id",
+    //     "js-custom-element",
+    //     "My Custom JS Element 1"
+    // )
+    // Create_Custom_Element(
+    //     "div",
+    //     "class",
+    //     "js-custom-element",
+    //     "My Custom JS Element 2"
+    // )
+}
