@@ -140,7 +140,7 @@ if (site.includes("roblox.com")) {
 
         * {
             font-family: "Nokora" !important;
-            //color: #363636 !important;
+            //color: #474747 !important;
         }
 
         ytd-channel-about-metadata-renderer {
